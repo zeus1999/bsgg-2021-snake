@@ -6,9 +6,11 @@ using System.Threading.Tasks;
 
 namespace SnakeConsole
 {
-    class Snake
+    enum Direction
     {
-        int length = 4;
-        Direction direction = Direction.RIGHT;
+        UP,
+        RIGHT,
+        LEFT,
+        DOWN
     }
 }
