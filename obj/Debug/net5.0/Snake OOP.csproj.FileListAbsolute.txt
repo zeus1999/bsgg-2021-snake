@@ -1,0 +1,17 @@
+X:\schule\Snake OOP\obj\Debug\net5.0\Snake OOP.csproj.AssemblyReference.cache
+X:\schule\Snake OOP\obj\Debug\net5.0\Snake OOP.GeneratedMSBuildEditorConfig.editorconfig
+X:\schule\Snake OOP\obj\Debug\net5.0\Snake OOP.AssemblyInfoInputs.cache
+X:\schule\Snake OOP\obj\Debug\net5.0\Snake OOP.AssemblyInfo.cs
+X:\schule\Snake OOP\obj\Debug\net5.0\Snake OOP.csproj.CoreCompileInputs.cache
+X:\schule\Snake OOP\bin\Debug\net5.0\Snake OOP.exe
+X:\schule\Snake OOP\bin\Debug\net5.0\Snake OOP.dll.config
+X:\schule\Snake OOP\bin\Debug\net5.0\Snake OOP.deps.json
+X:\schule\Snake OOP\bin\Debug\net5.0\Snake OOP.runtimeconfig.json
+X:\schule\Snake OOP\bin\Debug\net5.0\Snake OOP.runtimeconfig.dev.json
+X:\schule\Snake OOP\bin\Debug\net5.0\Snake OOP.dll
+X:\schule\Snake OOP\bin\Debug\net5.0\ref\Snake OOP.dll
+X:\schule\Snake OOP\bin\Debug\net5.0\Snake OOP.pdb
+X:\schule\Snake OOP\obj\Debug\net5.0\Snake OOP.dll
+X:\schule\Snake OOP\obj\Debug\net5.0\ref\Snake OOP.dll
+X:\schule\Snake OOP\obj\Debug\net5.0\Snake OOP.pdb
+X:\schule\Snake OOP\obj\Debug\net5.0\Snake OOP.genruntimeconfig.cache
