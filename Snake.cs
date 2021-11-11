@@ -4,87 +4,81 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Snake_OOP
-{
-    class Snake : Figure
-    {
-        Direction direction;
+namespace Snake_OOP {
+    class Snake : Figure {
+        Direction dir;
 
-        public Snake(Point tail, int lenght, Direction _direction)
-        {
-            direction = _direction;
-            plist = new List<Point>();
-            for (int i = 0; i < lenght; i++)
-            {
-                Point p = new Point(tail);
-                p.Move(i, direction);
-                plist.Add(p);
+        public int baseSpeed = 100;
+        public int speed = 100;
+        public int counter = 0;
+
+        public Snake(Block tail, int lenght, Direction direction){
+            dir = direction;
+
+            blockList = new List<Block>();
+            for(int i = 0; i < lenght; i++){
+                Block block = new Block(tail);
+                block.Move(i, direction);
+                blockList.Add(block);
             }
         }
 
-        internal void Move()
-        {
-            Point tail = plist.First();
-            plist.Remove(tail);
-            Point head = GetNextPoint();
-            plist.Add(head);
+        internal void Move(){
+            Block tail = blockList.First();
+            blockList.Remove(tail);
+
+            Block head = GetNextPoint();
+            blockList.Add(head);
 
             tail.Clear();
             head.Draw();
         }
 
-        public Point GetNextPoint()
-        {
-            Point head = plist.Last();
-            Point nextPoint = new Point(head);
-            nextPoint.Move(1, direction);
+        public Block GetNextPoint(){
+            Block head = blockList.Last();
+            Block nextPoint = new Block(head);
+            nextPoint.Move(1, dir);
             return nextPoint;
         }
 
-        internal bool IsHitTail()
-        {
-            var head = plist.Last();
-            for (int i = 0; i < plist.Count -2; i++)
-            {
-                if (head.IsHit(plist[i]))
-                {
+        internal bool isHitTail(){
+            var head = blockList.Last();
+            for(int i = 0; i < blockList.Count -2; i++){
+                if(head.isHit(blockList[i])){
                     return true;
                 }
             }
             return false;
         }
 
-        public void HandleKey(ConsoleKey key)
-        {
-            if (key == ConsoleKey.LeftArrow)
-            {
-                direction = Direction.LEFT;
+        public void HandleKey(ConsoleKey key){
+            if(key == ConsoleKey.LeftArrow){
+                dir = Direction.LEFT;
+                speed = baseSpeed;
+            } else if(key == ConsoleKey.RightArrow){
+                dir = Direction.RIGHT;
+                speed = baseSpeed;
             }
-            else if (key == ConsoleKey.RightArrow)
-            {
-                direction = Direction.RIGHT;
+            else if(key == ConsoleKey.DownArrow){
+                dir = Direction.DOWN;
+                speed = Convert.ToInt16(baseSpeed * 1.5);
             }
-            else if (key == ConsoleKey.DownArrow)
-            {
-                direction = Direction.DOWN;
-            }
-            else if (key == ConsoleKey.UpArrow)
-            {
-                direction = Direction.UP;
+            else if(key == ConsoleKey.UpArrow){
+                dir = Direction.UP;
+                speed = Convert.ToInt16(baseSpeed * 1.5);
             }
         }
 
-        internal bool Eat(Point food)
-        {
-            Point head = GetNextPoint();
-            if (head.IsHit(food))
-            {
-                food.sym = head.sym;
-                plist.Add(food);
+        internal bool Eat(Block block){
+            Block head = GetNextPoint();
+            if(head.isHit(block)){
+                blockList.Add(block);
+                baseSpeed -= 10;
+                counter++;
                 return true;
-            }
-            else
+            } else {
                 return false;
+            }
         }
     }
 }

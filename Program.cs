@@ -4,66 +4,79 @@ using System.Linq;
 using System.Text;
 using System.Threading;
 
-namespace Snake_OOP
-{
-    class Program
-    {
-        static void Main(string[] args)
-        {
+using MongoDB.Bson;
+
+namespace Snake_OOP {
+    class Program {
+        static void Main(string[] args){
+
+            string name = "";
+
+            Database db = new Database();
+           
+
+            Console.CursorVisible = false;
+            Console.SetCursorPosition(0, 0);
+
             Console.ForegroundColor = ConsoleColor.Magenta;
-            Console.WriteLine("Press 'enter' to start the game :)");
-            Console.ResetColor();
+            Console.WriteLine("Drücke 'enter' um das Spiel zu starten.");
             Console.ReadLine();
+            Console.WriteLine("Gebe deinen Namen ein.");
+            name = Console.ReadLine();
+            Console.ResetColor();
             Console.Clear();
 
             Walls walls = new Walls(80, 25);
             walls.Draw();
 
-
-            // Отрисовка точек
-            Point p = new Point(4, 6, '*');
-            Snake snake = new Snake(p, 5, Direction.RIGHT);
+            Block snakeBlock = new Block(4, 6, '*');
+            Snake snake = new Snake(snakeBlock, 5, Direction.RIGHT);
             snake.Draw();
 
             FoodCreator foodCreator = new FoodCreator(80, 25, '*');
-            Point food = foodCreator.CreateFood();
+            Block food = foodCreator.CreateFood();
             food.Draw();
 
-            while (true)
-            {
-                if(walls.IsHit(snake) || snake.IsHitTail() )
-                {
-                    
+            while(true){
+
+
+                if(walls.IsHit(snake) || snake.isHitTail()){
                     break;
                 }
 
-                if (snake.Eat(food))
-                {
+                if(snake.Eat(food)){
                     food = foodCreator.CreateFood();
                     food.Draw();
-                }
-                else
-                {
+                } else {
                     snake.Move();
                 }
 
-                Thread.Sleep(100);
+                Thread.Sleep(snake.speed);
 
-                if (Console.KeyAvailable)
-                {
+                if(Console.KeyAvailable){
                     ConsoleKeyInfo key = Console.ReadKey();
                     snake.HandleKey(key.Key);
                 }   
             }
-            WriteGameOver();
+
+            
+            db.insertPoints(name, snake.counter);
+            gameOver(db);
             Console.ReadLine();
         }
 
-        static void WriteGameOver()
-        {
-            Console.SetCursorPosition(17, 12);
-            Console.ForegroundColor = ConsoleColor.Red;
-            Console.WriteLine("You lose :( . Press 'enter' to quit the game.");
+        static void gameOver(Database db){
+            Console.SetCursorPosition(0, 0);
+            Console.ForegroundColor = ConsoleColor.White;
+            Console.Clear();
+            Console.WriteLine("Verloren! Drücke 'enter' um das Spiel zu verlassen.");
+            Console.WriteLine("");
+            var documents = db.getScoreboard();
+            foreach (BsonDocument doc in documents){
+                Console.WriteLine(doc.GetValue("name") + "\t" + doc.GetValue("counter"));
+            }
+
+
         }
     }
     

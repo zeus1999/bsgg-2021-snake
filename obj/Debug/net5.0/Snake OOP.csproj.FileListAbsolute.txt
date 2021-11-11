@@ -1,17 +1,28 @@
-X:\schule\Snake OOP\obj\Debug\net5.0\Snake OOP.csproj.AssemblyReference.cache
-X:\schule\Snake OOP\obj\Debug\net5.0\Snake OOP.GeneratedMSBuildEditorConfig.editorconfig
-X:\schule\Snake OOP\obj\Debug\net5.0\Snake OOP.AssemblyInfoInputs.cache
-X:\schule\Snake OOP\obj\Debug\net5.0\Snake OOP.AssemblyInfo.cs
-X:\schule\Snake OOP\obj\Debug\net5.0\Snake OOP.csproj.CoreCompileInputs.cache
-X:\schule\Snake OOP\bin\Debug\net5.0\Snake OOP.exe
-X:\schule\Snake OOP\bin\Debug\net5.0\Snake OOP.dll.config
-X:\schule\Snake OOP\bin\Debug\net5.0\Snake OOP.deps.json
-X:\schule\Snake OOP\bin\Debug\net5.0\Snake OOP.runtimeconfig.json
-X:\schule\Snake OOP\bin\Debug\net5.0\Snake OOP.runtimeconfig.dev.json
-X:\schule\Snake OOP\bin\Debug\net5.0\Snake OOP.dll
-X:\schule\Snake OOP\bin\Debug\net5.0\ref\Snake OOP.dll
-X:\schule\Snake OOP\bin\Debug\net5.0\Snake OOP.pdb
-X:\schule\Snake OOP\obj\Debug\net5.0\Snake OOP.dll
-X:\schule\Snake OOP\obj\Debug\net5.0\ref\Snake OOP.dll
-X:\schule\Snake OOP\obj\Debug\net5.0\Snake OOP.pdb
-X:\schule\Snake OOP\obj\Debug\net5.0\Snake OOP.genruntimeconfig.cache
+X:\schule\bsgg-2021-snake\obj\Debug\net5.0\Snake OOP.csproj.AssemblyReference.cache
+X:\schule\bsgg-2021-snake\obj\Debug\net5.0\Snake OOP.GeneratedMSBuildEditorConfig.editorconfig
+X:\schule\bsgg-2021-snake\obj\Debug\net5.0\Snake OOP.csproj.CoreCompileInputs.cache
+X:\schule\bsgg-2021-snake\bin\Debug\net5.0\Snake OOP.exe
+X:\schule\bsgg-2021-snake\bin\Debug\net5.0\Snake OOP.dll.config
+X:\schule\bsgg-2021-snake\bin\Debug\net5.0\Snake OOP.deps.json
+X:\schule\bsgg-2021-snake\bin\Debug\net5.0\Snake OOP.runtimeconfig.json
+X:\schule\bsgg-2021-snake\bin\Debug\net5.0\Snake OOP.runtimeconfig.dev.json
+X:\schule\bsgg-2021-snake\bin\Debug\net5.0\Snake OOP.dll
+X:\schule\bsgg-2021-snake\bin\Debug\net5.0\ref\Snake OOP.dll
+X:\schule\bsgg-2021-snake\bin\Debug\net5.0\Snake OOP.pdb
+X:\schule\bsgg-2021-snake\obj\Debug\net5.0\Snake OOP.dll
+X:\schule\bsgg-2021-snake\obj\Debug\net5.0\ref\Snake OOP.dll
+X:\schule\bsgg-2021-snake\obj\Debug\net5.0\Snake OOP.pdb
+X:\schule\bsgg-2021-snake\obj\Debug\net5.0\Snake OOP.genruntimeconfig.cache
+X:\schule\bsgg-2021-snake\bin\Debug\net5.0\DnsClient.dll
+X:\schule\bsgg-2021-snake\bin\Debug\net5.0\MongoDB.Bson.dll
+X:\schule\bsgg-2021-snake\bin\Debug\net5.0\MongoDB.Driver.dll
+X:\schule\bsgg-2021-snake\bin\Debug\net5.0\MongoDB.Driver.Core.dll
+X:\schule\bsgg-2021-snake\bin\Debug\net5.0\MongoDB.Libmongocrypt.dll
+X:\schule\bsgg-2021-snake\bin\Debug\net5.0\SharpCompress.dll
+X:\schule\bsgg-2021-snake\bin\Debug\net5.0\runtimes\win\native\libzstd.dll
+X:\schule\bsgg-2021-snake\bin\Debug\net5.0\runtimes\win\native\snappy32.dll
+X:\schule\bsgg-2021-snake\bin\Debug\net5.0\runtimes\win\native\snappy64.dll
+X:\schule\bsgg-2021-snake\bin\Debug\net5.0\runtimes\linux\native\libmongocrypt.so
+X:\schule\bsgg-2021-snake\bin\Debug\net5.0\runtimes\osx\native\libmongocrypt.dylib
+X:\schule\bsgg-2021-snake\bin\Debug\net5.0\runtimes\win\native\mongocrypt.dll
+X:\schule\bsgg-2021-snake\obj\Debug\net5.0\Snake OOP.csproj.CopyComplete

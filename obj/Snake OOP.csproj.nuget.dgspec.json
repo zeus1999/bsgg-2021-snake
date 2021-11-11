@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "X:\\schule\\Snake OOP\\Snake OOP.csproj": {}
+    "X:\\schule\\bsgg-2021-snake\\Snake OOP.csproj": {}
   },
   "projects": {
-    "X:\\schule\\Snake OOP\\Snake OOP.csproj": {
+    "X:\\schule\\bsgg-2021-snake\\Snake OOP.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "X:\\schule\\Snake OOP\\Snake OOP.csproj",
+        "projectUniqueName": "X:\\schule\\bsgg-2021-snake\\Snake OOP.csproj",
         "projectName": "Snake OOP",
-        "projectPath": "X:\\schule\\Snake OOP\\Snake OOP.csproj",
+        "projectPath": "X:\\schule\\bsgg-2021-snake\\Snake OOP.csproj",
         "packagesPath": "C:\\Users\\U736101\\.nuget\\packages\\",
-        "outputPath": "X:\\schule\\Snake OOP\\obj\\",
+        "outputPath": "X:\\schule\\bsgg-2021-snake\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\U736101\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -37,6 +37,12 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
+          "dependencies": {
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.13.2, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
