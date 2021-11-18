@@ -14,7 +14,7 @@ namespace Snake_OOP {
         private IMongoDatabase database;
 
         public Database(){
-            client = new MongoClient("####");
+            client = new MongoClient("mongodb://snake:snake@jung-tobias.de:27017,jung-tobias.de:27018,jung-tobias.de:27019/?authSource=snake&replicaSet=main&readPreference=primary&appname=MongoDB%20Compass&ssl=false");
             database = client.GetDatabase("bsgg");  
         }
 
