@@ -9,11 +9,11 @@ namespace Snake_OOP
     class Block {
         public int x;
         public int y;
-        public char symbol;
+        public string symbol;
 
         public Block(){}
 
-        public Block(int x, int y, char symbol){
+        public Block(int x, int y, string symbol){
             this.x = x;
             this.y = y;
             this.symbol = symbol;
@@ -49,7 +49,7 @@ namespace Snake_OOP
         }
 
         public void Clear(){
-            symbol = ' ';
+            symbol = " ";
             Draw();
         }
 

@@ -13,8 +13,9 @@ namespace Snake_OOP {
             string name = "";
 
             Database db = new Database();
-           
 
+            Console.Clear();
+            Console.OutputEncoding = Encoding.UTF8;
             Console.CursorVisible = false;
             Console.SetCursorPosition(0, 0);
 
@@ -29,11 +30,11 @@ namespace Snake_OOP {
             Walls walls = new Walls(80, 25);
             walls.Draw();
 
-            Block snakeBlock = new Block(4, 6, '*');
+            Block snakeBlock = new Block(4, 6, "*");
             Snake snake = new Snake(snakeBlock, 5, Direction.RIGHT);
             snake.Draw();
 
-            FoodCreator foodCreator = new FoodCreator(80, 25, '*');
+            FoodCreator foodCreator = new FoodCreator(80, 25, char.ConvertFromUtf32(0x1F4A9));
             Block food = foodCreator.CreateFood();
             food.Draw();
 

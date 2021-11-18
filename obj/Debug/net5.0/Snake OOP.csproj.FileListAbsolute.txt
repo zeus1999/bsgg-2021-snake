@@ -26,3 +26,31 @@ X:\schule\bsgg-2021-snake\bin\Debug\net5.0\runtimes\linux\native\libmongocrypt.s
 X:\schule\bsgg-2021-snake\bin\Debug\net5.0\runtimes\osx\native\libmongocrypt.dylib
 X:\schule\bsgg-2021-snake\bin\Debug\net5.0\runtimes\win\native\mongocrypt.dll
 X:\schule\bsgg-2021-snake\obj\Debug\net5.0\Snake OOP.csproj.CopyComplete
+C:\Users\ses\Documents\bsgg_snake\bsgg-2021-snake\obj\Debug\net5.0\Snake OOP.csproj.AssemblyReference.cache
+C:\Users\ses\Documents\bsgg_snake\bsgg-2021-snake\obj\Debug\net5.0\Snake OOP.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ses\Documents\bsgg_snake\bsgg-2021-snake\obj\Debug\net5.0\Snake OOP.csproj.CoreCompileInputs.cache
+C:\Users\ses\Documents\bsgg_snake\bsgg-2021-snake\obj\Debug\net5.0\Snake OOP.dll
+C:\Users\ses\Documents\bsgg_snake\bsgg-2021-snake\obj\Debug\net5.0\ref\Snake OOP.dll
+C:\Users\ses\Documents\bsgg_snake\bsgg-2021-snake\obj\Debug\net5.0\Snake OOP.pdb
+C:\Users\ses\Documents\bsgg_snake\bsgg-2021-snake\bin\Debug\net5.0\Snake OOP.exe
+C:\Users\ses\Documents\bsgg_snake\bsgg-2021-snake\bin\Debug\net5.0\Snake OOP.dll.config
+C:\Users\ses\Documents\bsgg_snake\bsgg-2021-snake\bin\Debug\net5.0\Snake OOP.deps.json
+C:\Users\ses\Documents\bsgg_snake\bsgg-2021-snake\bin\Debug\net5.0\Snake OOP.runtimeconfig.json
+C:\Users\ses\Documents\bsgg_snake\bsgg-2021-snake\bin\Debug\net5.0\Snake OOP.runtimeconfig.dev.json
+C:\Users\ses\Documents\bsgg_snake\bsgg-2021-snake\bin\Debug\net5.0\Snake OOP.dll
+C:\Users\ses\Documents\bsgg_snake\bsgg-2021-snake\bin\Debug\net5.0\ref\Snake OOP.dll
+C:\Users\ses\Documents\bsgg_snake\bsgg-2021-snake\bin\Debug\net5.0\Snake OOP.pdb
+C:\Users\ses\Documents\bsgg_snake\bsgg-2021-snake\bin\Debug\net5.0\DnsClient.dll
+C:\Users\ses\Documents\bsgg_snake\bsgg-2021-snake\bin\Debug\net5.0\MongoDB.Bson.dll
+C:\Users\ses\Documents\bsgg_snake\bsgg-2021-snake\bin\Debug\net5.0\MongoDB.Driver.dll
+C:\Users\ses\Documents\bsgg_snake\bsgg-2021-snake\bin\Debug\net5.0\MongoDB.Driver.Core.dll
+C:\Users\ses\Documents\bsgg_snake\bsgg-2021-snake\bin\Debug\net5.0\MongoDB.Libmongocrypt.dll
+C:\Users\ses\Documents\bsgg_snake\bsgg-2021-snake\bin\Debug\net5.0\SharpCompress.dll
+C:\Users\ses\Documents\bsgg_snake\bsgg-2021-snake\bin\Debug\net5.0\runtimes\win\native\libzstd.dll
+C:\Users\ses\Documents\bsgg_snake\bsgg-2021-snake\bin\Debug\net5.0\runtimes\win\native\snappy32.dll
+C:\Users\ses\Documents\bsgg_snake\bsgg-2021-snake\bin\Debug\net5.0\runtimes\win\native\snappy64.dll
+C:\Users\ses\Documents\bsgg_snake\bsgg-2021-snake\bin\Debug\net5.0\runtimes\linux\native\libmongocrypt.so
+C:\Users\ses\Documents\bsgg_snake\bsgg-2021-snake\bin\Debug\net5.0\runtimes\osx\native\libmongocrypt.dylib
+C:\Users\ses\Documents\bsgg_snake\bsgg-2021-snake\bin\Debug\net5.0\runtimes\win\native\mongocrypt.dll
+C:\Users\ses\Documents\bsgg_snake\bsgg-2021-snake\obj\Debug\net5.0\Snake OOP.csproj.CopyComplete
+C:\Users\ses\Documents\bsgg_snake\bsgg-2021-snake\obj\Debug\net5.0\Snake OOP.genruntimeconfig.cache

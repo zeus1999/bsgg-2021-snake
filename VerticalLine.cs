@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace Snake_OOP {
     class VerticalLine : Figure {
 
-        public VerticalLine(int yTop, int yDown, int x, char symbol){
+        public VerticalLine(int yTop, int yDown, int x, string symbol){
             blockList = new List<Block>();
             
             for(int y = yTop; y <= yDown; y++){

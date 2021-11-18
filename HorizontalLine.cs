@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace Snake_OOP {
     class HorizontalLine : Figure {
 
-        public HorizontalLine(int xLeft, int xRight, int y, char symbol){
+        public HorizontalLine(int xLeft, int xRight, int y, string symbol){
             blockList = new List<Block>();
             for(int x = xLeft; x<= xRight; x++){
                 Block block = new Block(x, y, symbol);

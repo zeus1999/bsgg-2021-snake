@@ -8,11 +8,11 @@ namespace Snake_OOP {
     class FoodCreator {
         int mapWidht;
         int mapHeight;
-        char symbol;
+        string symbol;
 
         Random random = new Random();
 
-        public FoodCreator(int mapWidht, int mapHeight, char symbol){
+        public FoodCreator(int mapWidht, int mapHeight, string symbol){
             this.mapWidht = mapWidht;
             this.mapHeight = mapHeight;
             this.symbol = symbol;
