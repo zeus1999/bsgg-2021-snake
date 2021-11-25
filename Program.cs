@@ -29,9 +29,14 @@ namespace Snake_OOP {
             Walls walls = new Walls(80, 25);
             walls.Draw();
 
+
             Block snakeBlock = new Block(4, 6, '*');
             Snake snake = new Snake(snakeBlock, 5, Direction.RIGHT);
             snake.Draw();
+
+            Console.SetCursorPosition(0, 26);
+            Console.Write("Score: " + snake.counter);
+            Console.SetCursorPosition(0, 0);
 
             FoodCreator foodCreator = new FoodCreator(80, 25, '*');
             Block food = foodCreator.CreateFood();
@@ -47,6 +52,9 @@ namespace Snake_OOP {
                 if(snake.Eat(food)){
                     food = foodCreator.CreateFood();
                     food.Draw();
+                    Console.SetCursorPosition(7, 26);
+                    Console.Write(snake.counter);
+                    Console.SetCursorPosition(0, 0);
                 } else {
                     snake.Move();
                 }
