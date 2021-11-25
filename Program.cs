@@ -13,8 +13,8 @@ namespace Snake_OOP {
             string name = "";
 
             Database db = new Database();
-           
 
+            Console.Clear();
             Console.CursorVisible = false;
             Console.SetCursorPosition(0, 0);
 
