@@ -80,7 +80,8 @@ namespace Snake_OOP {
             Console.WriteLine("Verloren! Drücke 'enter' um das Spiel zu verlassen.");
             Console.WriteLine("");
             var documents = db.getScoreboard();
-            foreach (BsonDocument doc in documents){
+
+            foreach(BsonDocument doc in documents){
                 Console.WriteLine(doc.GetValue("name") + "\t" + doc.GetValue("counter"));
             }
 
