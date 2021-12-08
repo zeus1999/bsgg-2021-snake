@@ -26,3 +26,31 @@ X:\schule\bsgg-2021-snake\bin\Debug\net5.0\runtimes\linux\native\libmongocrypt.s
 X:\schule\bsgg-2021-snake\bin\Debug\net5.0\runtimes\osx\native\libmongocrypt.dylib
 X:\schule\bsgg-2021-snake\bin\Debug\net5.0\runtimes\win\native\mongocrypt.dll
 X:\schule\bsgg-2021-snake\obj\Debug\net5.0\Snake OOP.csproj.CopyComplete
+C:\workspace\bsgg-2021-snake\bin\Debug\net5.0\Snake OOP.exe
+C:\workspace\bsgg-2021-snake\bin\Debug\net5.0\Snake OOP.dll.config
+C:\workspace\bsgg-2021-snake\bin\Debug\net5.0\Snake OOP.deps.json
+C:\workspace\bsgg-2021-snake\bin\Debug\net5.0\Snake OOP.runtimeconfig.json
+C:\workspace\bsgg-2021-snake\bin\Debug\net5.0\Snake OOP.runtimeconfig.dev.json
+C:\workspace\bsgg-2021-snake\bin\Debug\net5.0\Snake OOP.dll
+C:\workspace\bsgg-2021-snake\bin\Debug\net5.0\ref\Snake OOP.dll
+C:\workspace\bsgg-2021-snake\bin\Debug\net5.0\Snake OOP.pdb
+C:\workspace\bsgg-2021-snake\bin\Debug\net5.0\DnsClient.dll
+C:\workspace\bsgg-2021-snake\bin\Debug\net5.0\MongoDB.Bson.dll
+C:\workspace\bsgg-2021-snake\bin\Debug\net5.0\MongoDB.Driver.dll
+C:\workspace\bsgg-2021-snake\bin\Debug\net5.0\MongoDB.Driver.Core.dll
+C:\workspace\bsgg-2021-snake\bin\Debug\net5.0\MongoDB.Libmongocrypt.dll
+C:\workspace\bsgg-2021-snake\bin\Debug\net5.0\SharpCompress.dll
+C:\workspace\bsgg-2021-snake\bin\Debug\net5.0\runtimes\win\native\libzstd.dll
+C:\workspace\bsgg-2021-snake\bin\Debug\net5.0\runtimes\win\native\snappy32.dll
+C:\workspace\bsgg-2021-snake\bin\Debug\net5.0\runtimes\win\native\snappy64.dll
+C:\workspace\bsgg-2021-snake\bin\Debug\net5.0\runtimes\linux\native\libmongocrypt.so
+C:\workspace\bsgg-2021-snake\bin\Debug\net5.0\runtimes\osx\native\libmongocrypt.dylib
+C:\workspace\bsgg-2021-snake\bin\Debug\net5.0\runtimes\win\native\mongocrypt.dll
+C:\workspace\bsgg-2021-snake\obj\Debug\net5.0\Snake OOP.csproj.AssemblyReference.cache
+C:\workspace\bsgg-2021-snake\obj\Debug\net5.0\Snake OOP.GeneratedMSBuildEditorConfig.editorconfig
+C:\workspace\bsgg-2021-snake\obj\Debug\net5.0\Snake OOP.csproj.CoreCompileInputs.cache
+C:\workspace\bsgg-2021-snake\obj\Debug\net5.0\Snake OOP.csproj.CopyComplete
+C:\workspace\bsgg-2021-snake\obj\Debug\net5.0\Snake OOP.dll
+C:\workspace\bsgg-2021-snake\obj\Debug\net5.0\ref\Snake OOP.dll
+C:\workspace\bsgg-2021-snake\obj\Debug\net5.0\Snake OOP.pdb
+C:\workspace\bsgg-2021-snake\obj\Debug\net5.0\Snake OOP.genruntimeconfig.cache

@@ -449,19 +449,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\U736101\\.nuget\\packages\\": {}
+    "C:\\Users\\Tobias\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "X:\\schule\\bsgg-2021-snake\\Snake OOP.csproj",
+      "projectUniqueName": "C:\\workspace\\bsgg-2021-snake\\Snake OOP.csproj",
       "projectName": "Snake OOP",
-      "projectPath": "X:\\schule\\bsgg-2021-snake\\Snake OOP.csproj",
-      "packagesPath": "C:\\Users\\U736101\\.nuget\\packages\\",
-      "outputPath": "X:\\schule\\bsgg-2021-snake\\obj\\",
+      "projectPath": "C:\\workspace\\bsgg-2021-snake\\Snake OOP.csproj",
+      "packagesPath": "C:\\Users\\Tobias\\.nuget\\packages\\",
+      "outputPath": "C:\\workspace\\bsgg-2021-snake\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\U736101\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Tobias\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
@@ -505,7 +505,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }

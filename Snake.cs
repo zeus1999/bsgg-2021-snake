@@ -74,11 +74,9 @@ namespace Snake_OOP {
             if(head.isHit(block)){
                 blockList.Add(block);
                 baseSpeed -= 10;
-                if (dir == Direction.RIGHT || dir == Direction.LEFT)
-                {
+                if (dir == Direction.RIGHT || dir == Direction.LEFT){
                     speed = baseSpeed;
-                } else
-                {
+                } else {
                     speed = Convert.ToInt16(baseSpeed * 1.5);
                 }
                 

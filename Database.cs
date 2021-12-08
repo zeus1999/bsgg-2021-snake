@@ -25,6 +25,7 @@ namespace Snake_OOP {
 
             return documents;
         }
+
         public bool insertPoints(string name, int points){
           
             var doc = new BsonDocument {
